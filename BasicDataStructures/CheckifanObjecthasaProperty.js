@@ -5,8 +5,11 @@
 //  and the other uses the in keyword. If we have an object
 //   users with a property of Alan, we could check for
 //    its presence in either of the following ways:
-
-users.hasOwnProperty('Alan');
-'Alan' in users;
+ const users = {
+    'name': 'Alan',
+    age: 20
+ }
+users.hasOwnProperty('name');
+console.log('name' in users);
 
 // Both of these would return true.
