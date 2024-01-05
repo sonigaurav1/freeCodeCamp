@@ -9,7 +9,7 @@ let varNames = "important_var";
 longHand.test(numbers);
 shortHand.test(numbers);
 longHand.test(varNames);
-shortHand.test(varNames);
+console.log(shortHand.test(varNames));
 
 // All four of these test calls would return true.
 
